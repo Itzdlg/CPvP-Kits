@@ -1,0 +1,9 @@
+main: us.cpvp.kits.CPvPKits
+name: CPvP-Kits
+version: 1.0.0
+api-version: "1.13"
+
+commands:
+  /kits:
+    usage: /kits
+    description: Open the kits GUI

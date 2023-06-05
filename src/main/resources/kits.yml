@@ -1,0 +1,23 @@
+default-loadout:
+  1: healing_potion
+  2: healing_potion
+  0: diamond_sword
+
+kit-items:
+  healing_potion:
+    display_slot: 0
+    item:
+      type: potion
+      amount: 1
+      effects:
+        strength:
+          amplifier: 3
+          duration: 60
+  diamond_sword:
+    display_slot: 1
+    item:
+      type: diamond_sword
+      amount: 1
+      enchants:
+        mending: 1
+        sharpness: 3
